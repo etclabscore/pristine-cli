@@ -9,7 +9,7 @@
     "start": "npm run build && node build/index.js",
     "build": "tsc",
     "lint": "tslint --fix -p .",
-    "test": "npm run lint && jest --coverage"
+    "test": "npm run lint && jest --coverage --passWithNoTests"
   },
   "author": "",
   "license": "Apache-2.0",
