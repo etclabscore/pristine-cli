@@ -10,7 +10,7 @@ There are a lack of repositories to start from to build community driven open so
 
 ## How to use Pristine CLI
 
-- `npm install @etclabscore/pristine-cli`
+- `npm install -g @etclabscore/pristine-cli`
 - `pristine-cli myNewProject`
 - follow the prompts to select and create a new project to suite your needs
 
