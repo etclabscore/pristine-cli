@@ -2,6 +2,9 @@
   "name": "@etclabscore/pristine-cli",
   "version": "0.0.0-development",
   "description": "A cli to make it super easy to select a Pristine github template to start from.",
+  "files": [
+    "build"
+  ],
   "bin": {
     "pristine-cli": "build/index.js"
   },
