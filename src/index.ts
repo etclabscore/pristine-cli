@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import getPristineRepos, { IPristineRepo } from "./getPristineRepos";
 import inquirer from "inquirer";
 import _ from "lodash";
