@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/etclabscore/pristine-cli/compare/1.0.0...1.0.1) (2019-07-05)
+
+
+### Bug Fixes
+
+* **cli:** add shebang ([3d60314](https://github.com/etclabscore/pristine-cli/commit/3d60314))
+* **semantic-release:** checkout before releasing ([435408f](https://github.com/etclabscore/pristine-cli/commit/435408f))
+* **semantic-release:** deps ([452adf5](https://github.com/etclabscore/pristine-cli/commit/452adf5))
+
 # 1.0.0 (2019-07-05)
 
 
