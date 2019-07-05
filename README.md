@@ -14,6 +14,10 @@ There are a lack of repositories to start from to build community driven open so
 - `pristine-cli myNewProject`
 - follow the prompts to select and create a new project to suite your needs
 
+
+![pristine-cli-test2](https://user-images.githubusercontent.com/364566/60707733-3d8c6a80-9ec1-11e9-9a3e-7943c4e6e9ae.gif)
+
+
 #### Resources
 
 - [Pristine](https://github.com/etclabscore/pristine)
