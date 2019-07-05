@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/etclabscore/pristine-cli/compare/1.0.2...1.0.3) (2019-07-05)
+
+
+### Bug Fixes
+
+* **README:** add gif of usage ([efda384](https://github.com/etclabscore/pristine-cli/commit/efda384))
+* ctrl n/p as alias for up/down ([94ac0f5](https://github.com/etclabscore/pristine-cli/commit/94ac0f5))
+
 ## [1.0.2](https://github.com/etclabscore/pristine-cli/compare/1.0.1...1.0.2) (2019-07-05)
 
 
