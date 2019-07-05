@@ -4,7 +4,7 @@ A cli to make it super easy to select a Pristine github template to start from.
 
 ## What is Pristine?
 
-[Pristine](https://github.com/etclabscore/pristine). is an open source repository in its original condition.
+[Pristine](https://github.com/etclabscore/pristine) is an open source repository in its original condition.
 
 There are a lack of repositories to start from to build community driven open source projects. Pristine is a complete starting point, it follows a Documentation Driven Development approach, and can be used as a resource to augment existing documentation.
 
