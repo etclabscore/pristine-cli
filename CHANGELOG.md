@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/etclabscore/pristine-cli/compare/1.1.0...1.1.1) (2019-07-11)
+
+
+### Bug Fixes
+
+* post-install chmod ([5adc9e1](https://github.com/etclabscore/pristine-cli/commit/5adc9e1))
+
 # [1.1.0](https://github.com/etclabscore/pristine-cli/compare/1.0.3...1.1.0) (2019-07-11)
 
 
