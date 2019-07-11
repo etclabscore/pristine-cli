@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/etclabscore/pristine-cli/compare/1.0.3...1.1.0) (2019-07-11)
+
+
+### Bug Fixes
+
+* **README:** update install instructions to global ([738aca8](https://github.com/etclabscore/pristine-cli/commit/738aca8))
+
+
+### Features
+
+* post install when available ([4671fb4](https://github.com/etclabscore/pristine-cli/commit/4671fb4))
+
 ## [1.0.3](https://github.com/etclabscore/pristine-cli/compare/1.0.2...1.0.3) (2019-07-05)
 
 
