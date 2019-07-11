@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 import getPristineRepos, { IPristineRepo } from "./getPristineRepos";
 import inquirer from "inquirer";
+import execa from "execa";
 import _ from "lodash";
+import * as path from "path";
+import checkExists from "./checkExists";
 const ghdownload = require("github-download"); //tslint:disable-line
 const inquirerAutoCompletePrompt = require("inquirer-autocomplete-prompt"); //tslint:disable-line
 
@@ -39,8 +42,21 @@ getPristineRepos().then((results) => {
         .on("err", (e: Error) => {
           console.error(e);
         })
-        .on("end", () => {
+        .on("end", async () => {
           console.log(`💎  Finished generating ${answers.template} into ${dirName}. 💎`); //tslint:disable-line
+          const exists = await checkExists(path.resolve(process.cwd(), dirName, ".pristine/post-install.sh"));
+          if (!exists) {
+            return;
+          }
+          await execa(
+            "./.pristine/post-install.sh",
+            [],
+            {
+              cwd: `${process.cwd()}/${dirName}`,
+              stdio: "inherit",
+            },
+          );
+          console.log("✅  Setup Complete.\n"); //tslint:disable-line
         });
     });
 });
