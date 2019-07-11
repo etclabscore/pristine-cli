@@ -48,11 +48,14 @@ getPristineRepos().then((results) => {
           if (!exists) {
             return;
           }
+          await execa("chmod", ["u+x", ".pristine/post-install.sh"], {
+            cwd: dirName,
+          });
           await execa(
-            "./.pristine/post-install.sh",
+            ".pristine/post-install.sh",
             [],
             {
-              cwd: `${process.cwd()}/${dirName}`,
+              cwd: dirName,
               stdio: "inherit",
             },
           );
